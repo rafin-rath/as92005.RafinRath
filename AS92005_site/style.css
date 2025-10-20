@@ -1,0 +1,60 @@
+/* Default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*margin and padding resets the spacing and box-sizing:border-box makes the stuff in the element's width*/
+
+.image-row{
+    text-align:center;
+    width:100%;
+    height:auto;
+}
+/*.image-row targets images,text-align makes it goes to the center,width:100% make the image fill the whole width of the container(website)*/
+
+
+/* Body styling */
+
+body {
+    text-align:center;
+    background-color: #F5FBFF;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding:20px;
+}
+/*background-color set the background to the colour i choose, line height sets the space between the lines height,font-family make the text the font i choose*/
+
+h2 {
+    margin-top:100px;
+}
+
+/*nav bar stuff*/
+nav {
+    background-color: #D1E5F4;
+    padding:10px;
+    text-align:center;
+    width:313px;
+}
+
+
+nav ul {
+    list-style-type:none;
+    display:flex;
+}
+/*list-style-type:none; removes the bullet points from the nav bar list, display:flex make the list display sideway not vertically*/
+
+nav ul li {
+    margin:20px;
+}
+
+nav ul li a {
+    color:black;
+    font-size:17px;
+    text-align:center;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+/*this underlines the nav bar links*/
